@@ -1,0 +1,57 @@
+Exo1 / 
+Construire le diagramme de class correspondant
+@startuml dcu
+class Commune{
+	-nomCom :string
+	-lesSecteurs :array
+	+volumeVans() : entier
+
++getLesSecteurs() :array
++setLesSecteurs(array)
++getNomCommune() :string
++setNomCommune(string)
+}
+
+class Secteur{
+-nomSecteur : chaîne
+
+}
+class Branchement
+class Usager extends Branchement{}
+
+@enduml
+
+
+class secteur{
+-laCommune: Commune
+}
+Class Commune
+Privés
+
+lesSecteurs : Collection de secteur
+Public
+commune(nomcom : chaîne
+volumeVans() : entier
+Classe secteur
+Privé
+
+
+lesBranchements : collection de branchement
+Public
+Secteur(nomSecteur: chaîne, 
+laCommune : commune
+getNomSecteur : chaîne
+La Class Compteur
+Privé
+IndexAncien : Entier
+indexNouveau: entier
+Public
+Fonction releve() : entier
+Class Branchement
+Privé
+leCompteur : Compteur
+Public
+Conso() : entier
+
+Class Usager héritent de branchement
+Class Vanne hérite de branchement 

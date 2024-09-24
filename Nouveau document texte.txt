@@ -1,0 +1,34 @@
+Exo1 / 
+Construire le diagramme de class correspondant
+
+Class Commune
+Privés
+nomCom : chaîne
+lesSecteurs : Collection de secteur
+Public
+commune(nomcom : chaîne
+volumeVans() : entier
+Classe secteur
+Privé
+nomSecteur : chaîne
+laCommune: commune
+lesBranchements : collection de branchement
+Public
+Secteur(nomSecteur: chaîne, 
+laCommune : commune
+getNomSecteur : chaîne
+La Class Compteur
+Privé
+IndexAncien : Entier
+indexNouveau: entier
+Public
+Fonction releve() : entier
+Class Branchement
+Privé
+leCompteur : Compteur
+Public
+Conso() : entier
+
+Class Usager héritent de branchement
+Class Vanne hérite de branchement 
+
