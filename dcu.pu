@@ -16,9 +16,19 @@ class Secteur{
 -nomSecteur : chaîne
 
 }
-class Branchement
-class Usager extends Branchement{}
+class Branchement{
 
+}
+class Usager extends Branchement{
+
+}
+
+class Vannes extends Branchement{
+
+}
+class Compteur{
+
+}
 @enduml
 
 
